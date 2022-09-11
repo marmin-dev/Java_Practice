@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="120.0" prefWidth="200.0" xmlns:fx="http://javafx.com/fxml/1" 
+ fx:controller="sec02.example06.RootController">
+   <children>
+      <Label alignment="CENTER" layoutX="10.0" layoutY="7.0" prefHeight="40.0" prefWidth="180.0" text="00.00.00" Alignment="CENTER"
+      style="-fx-background-color:black; -fx-text-fill:yellow; -fx-font-size:20; -fx-background-radius:20;">
+         <font>
+            <Font name="System Font" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnStart" layoutX="28.0" layoutY="80.0" prefHeight="35.0" prefWidth="60.0" text="Start" />
+      <Button fx:id="btnStop" layoutX="112.0" layoutY="80.0" prefHeight="35.0" prefWidth="60.0" text="Stop" />
+   </children>
+</AnchorPane>

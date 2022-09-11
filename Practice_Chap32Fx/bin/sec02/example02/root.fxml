@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+
+<HBox xmlns:fx="http://javafx.com/fxml/1" prefWidth="700" prefHeight="50" alignment="CENTER" spacing="20">
+	<children>
+	
+	<Button id="btnId" text="안녕하세요" />
+		
+	<Button  styleClass="btnClass" text="반갑습니다"/>
+	<Button styleClass="btnClass" text="행복하세요"/>
+		
+	<Label text="라벨1" />
+	<Label text="라벨2" />
+	<Label text="라벨3" />
+	
+	</children>	
+	
+</HBox>
+

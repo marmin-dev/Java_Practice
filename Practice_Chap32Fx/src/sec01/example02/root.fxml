@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+
+<VBox fx:id="vBox" xmlns:fx="http://javafx.com/fxml/1" prefHeight="200" prefWidth="200"
+fx:controller="sec01.example02.RootController" spacing="20" alignment="CENTER">
+	<padding>
+		<Insets topRightBottomLeft="15"/>
+	</padding>
+	<children>
+		<Button text="파일오픈" onAction="#openFileChooser"/>
+		<Button text="파일지정" onAction="#saveFileChooser"/>
+		<Button text="폴더오픈" onAction="#openDirChooser"/>
+		<Button text="팝업창" onAction="#openPopChooser"/>
+		<Button text="사용자지정" onAction="#openCustoms"/>
+	</children>
+	
+	
+</VBox>
+

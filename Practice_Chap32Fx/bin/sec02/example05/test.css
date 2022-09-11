@@ -1,0 +1,20 @@
+#vBox1{
+	-fx-background-color: blue;
+}
+#vBox2{
+	/*배경색을 rgba를 이용해서 설정 컬러코드 또는 알지비값으로 입력하기 */
+	-fx-background-color: rgba(255,0,0,1.0);
+	-fx-border-color: black;
+}
+/*그라데이숀 */
+#vBox3{
+	-fx-background-color: linear-gradient(to right,#000000, #ffffff);
+}
+#vBox4{
+	-fx-background-image: url("new.png");
+	-fx-background-repeat: no-repeat ;
+}
+#vBox5{
+	-fx-background-image: url("new.png");
+	-fx-background-repeat: no-repeat ;
+}

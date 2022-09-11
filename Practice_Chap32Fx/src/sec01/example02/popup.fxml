@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.ImageView?>
+
+<!-- HBox에 배경색을 검정색으로 하고 반지름이 20픽셀인 원처럼 둥글게 만드는 인라인 스타일지정 -->
+<HBox xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER_LEFT" 
+	style="-fx-background-color:black; -fx-background-radius:20;">
+	
+	<!-- 현재 이 fxml파일에는 컨트롤러를 지정하지 않았다 그렇기 때문에 fx:id를 써봐야 의미가 없다
+	이럴떄는 간단하게 컨트롤러에서 참조할수 있게 id를 준다.그리고 컨트롤러 에서는 룩업으로 
+	id를 찾아서 해당 id의 컨트롤의 참조를 할수 있게된다 -->
+	<ImageView id="imgMessage" fitHeight="30" fitWidth="30" preserveRatio="true"/>
+	
+	<Label id="lblMessage" style="-fx-text-fill:white;">
+		<HBox.margin>
+			<Insets right="50" left="50"/>	
+		</HBox.margin> 
+	</Label>
+</HBox>
+

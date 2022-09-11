@@ -1,0 +1,10 @@
+TextField:focused{
+	-fx-background-color: blue;
+	-fx-border-color: black;
+	-fx-border-image-width: 2px;
+}
+TextField:hover{
+	-fx-background-color: blue;
+	-fx-border-color: black;
+	-fx-border-image-width: 2px;
+}
