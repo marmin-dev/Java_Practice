@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="200.0" prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Button layoutX="43.0" layoutY="148.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="100.0" text="확인" />
+      <Button layoutX="157.0" layoutY="148.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="100.0" text="취소" />
+      <Label layoutX="105.0" layoutY="92.0" text="확인하셨습니까">
+         <font>
+            <Font name="Academy Engraved LET Plain:1.0" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

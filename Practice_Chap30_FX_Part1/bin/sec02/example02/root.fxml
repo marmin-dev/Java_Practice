@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+
+<HBox xmlns:fx="http://javafx.com/fxml/1">
+<!-- 주석처리하는곳을 선택해서 역슬러 -->
+	<padding>	<!-- 안쪽여백 설정태그 -->
+	<Insets topRightBottomLeft= "10"/>	
+	</padding>
+	<spacing>10</spacing> <!-- h박스에 들어가는 컨트롤의 간격을 10픽셀로 -->
+	<!-- 컨트롤추가 -->
+	<children>
+		<TextField prefWidth="200"/>
+		<Button text="확인"/>
+		<Button text="취소"/>
+	</children>
+	
+</HBox>
+
